@@ -58,7 +58,7 @@ function App() {
         <h1>Dogecoin Price Predictor</h1>
         <p> One click = 10 cents</p>
         <h2>$ {dogePrice.toFixed(2)}</h2>
-        <button onClick={updateDogePrice}>Doge to the 🌜!</button>
+        <button onClick={updateDogePrice}>Doge go to the 🌜!</button>
 
         <Lottie
           options={defaultOptions}
