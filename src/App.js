@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Amplify, { API, graphqlOperation } from 'aws-amplify';
 import Lottie from 'react-lottie';
-import $ from 'jquery';
 
 import awsExports from './aws-exports';
 import { updateDoge } from './graphql/mutations';
